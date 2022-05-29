@@ -1,0 +1,262 @@
+@media all and (max-width: 980px) {
+	.phonecallmail {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	
+	h3 {
+		font-size: 40px;
+	}
+	
+	h4 {
+		font-size: 36px;
+	}
+	
+	p {
+		font-size: 28px;
+	}
+	
+	.mobile-menu-open-btn {
+		display: block;
+		color: #a2a2a2;	
+		float: right;
+		margin-right: 50px;
+		position: fixed;
+		top: 5px;
+		right: 0;
+		font-size:100px;
+		cursor:pointer;
+	}
+
+	.mobile-ul {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: rgba(0,0,0, 0.95);
+		display: block;
+		overflow-x: hidden;
+		transition: 0.7s;
+		
+		-webkit-position: fixed;
+		-webkit-z-index: 1;
+		-webkit-top: 0;
+		-webkit-left: 0;
+		-webkit-background-color: rgba(0,0,0, 0.95);
+		-webkit-display: block;
+		-webkit-overflow-x: hidden;
+		-webkit-transition: 0.7s;
+	}
+
+	.mobile-ul-content {
+		position: relative;
+		-webkit-position: relative;
+		top: 25%;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.mobile-ul a {
+		padding: 8px;
+		text-decoration: none;
+		font-size: 100px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.mobile-ul a:hover, .mobile-ul a:focus {
+		color: #f1f1f1;
+	}
+
+	.mobile-ul .close-x {
+		position: absolute;
+		top: 20px;
+		right: 45px;
+		font-size: 60px;
+	}
+	
+	li {
+		display: none;
+	}
+	
+	li a {
+		display: none;
+	}
+	
+	.slideshow-text {
+		top: 610px;
+	}
+	
+	.slideshow-text p {
+		font-size: 32px;
+		color: #fff;
+	}
+
+	.bodysummer {
+		background: url(../img/summerpagebg.jpg) fixed; 
+		background-size: auto 749px;
+	}
+	
+	.bodywinter {
+		background: url(../img/winterpagebg.jpg) fixed; 
+		background-size: auto 749px;
+	}
+	
+	.id {
+		margin-bottom: 10%;
+	}
+	
+	.conteinerforlogo {
+	float: left;
+	padding: 3% 0;
+	width: 30%;
+	margin-left: 20%;
+}
+
+.conteinerforlogo img {
+	width: 300px;
+}
+	
+	.header {
+		width: 100%;
+		padding: 0 0 0 0;
+	}
+	
+	.slideshowconteiner img {
+		height: 400px;
+	}
+	
+	.slideshowbtnleft {
+		top: 150px;
+		font-size: 25px;
+	}
+
+	.slideshowbtnright {
+		top: 150px;
+		font-size: 25px;
+	}
+	
+	.slideshowtxt {
+		top: 330px;
+		padding: 2px;
+	}
+	
+	.popbox {
+		padding: 9% 0 0 0;
+	}
+
+	.popbox-conn {
+		width: 95%;
+		height: 95%;
+		padding: 5% 0% 0% 0%;
+	}
+
+	.popbox-close {
+		right: 25px;
+	}
+	
+	.hotels {
+		width: 100%;
+		padding: 5% 0 0 0;
+	}
+	
+	.hotelpage {
+		padding: 0%;
+	}
+	
+	.hotelbulgaria {
+		height: 600px;
+	}
+	
+	.hotelmolerite {
+		height: 600px;
+	}
+	
+	.hoteltext {
+		min-width: 50%;
+		padding: 2% 2%;
+	}
+	
+	.myHotelbggallery img {
+		height: 450px;
+	}
+	
+	.myHotelmolegallery img {
+		height: 450px;
+	}
+	
+	.myHotelbggallery .numbertext {
+		color: #fff;
+	}
+	
+	.myHotelmolegallery .numbertext {
+		color: #fff;
+	} 
+
+	.column img {
+		height: 100px;
+	}
+	
+	.service {
+		width: 100%;
+		padding: 5% 0 0 0;
+	}
+	
+	.imgbox {
+		width: 45%;
+	}
+	
+	.imgboxwinter {
+		width: 30%;
+	}
+	
+	.imgboxtxtbottom {
+		font-size: 32px;
+	}
+	
+	.tours-box-gallery {
+		padding: 0% 0 0 0; 
+	}
+	
+	.h3title {
+		width: 95%;
+		padding: 2px 25px;
+		border-bottom: 2px solid #000;
+	}
+	
+
+	.gallery > div:hover > img {
+		transform: scale(1.7,1.7);
+	}
+	
+	.about {
+		width: 100%;
+		padding: 0;
+		height: auto;
+	}
+	
+	.iframe {
+		float: none;
+		width: 100%;
+		height: 500px;
+	}
+
+	.contact {
+		float: none;
+		width: 100%;
+	}
+	
+	.footer p {
+		font-size: 12px;
+	}
+	
+	table {
+		width: 100%;
+	}
+}
