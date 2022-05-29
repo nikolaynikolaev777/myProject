@@ -1,0 +1,337 @@
+html, body {
+	font-family: HindSiliguri-Light;
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	right: 0;
+	left: 0;
+}
+
+@font-face {
+	font-family: HindSiliguri-Light;
+	src: url(HindSiliguri-Light.ttf);
+}
+
+@font-face {
+	font-family: DancingScript-VariableFont;
+	src: url(DancingScript-VariableFont_wght.ttf);
+}
+
+.fast-contact {
+	padding: 0 15%;
+	width: 70%;
+	text-align: right;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #245BA5;
+	height: 65px;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.topnav a:hover {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+.header-logo-conteiner {
+	width: 100%;
+	padding: 2% 0;
+	text-align: center;
+}
+
+.header-logo {
+	font-family: DancingScript-VariableFont;
+	border: 1px solid #245BA5;
+	color: #245BA5;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 52px;
+	margin: 4px 2px;
+}
+
+.header-image {
+	width: 100%;
+	height: 400px;
+	background: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.hotel-bulgaria-wallpaper {
+	width: 100%;
+	height: 400px;
+	background: url(../img/hotelbulgaria.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.hotels {
+	width: 80%;
+	padding: 3% 10%;
+	text-align: center;
+}
+
+.hotels-bulgaria {
+	background: url(../img/hotelbulgaria.jpg);
+	height: 250px;
+	width: 49%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+}
+
+.hotels-molerite {
+	background: url(../img/hotelmolerite.jpg);
+	height: 250px;
+	width: 49%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: inline-block;
+}
+
+.hotels-text {
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(0, 0, 0, 1);
+}
+
+.hotels-text button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px 25px;
+	color: rgb(255, 255, 255, 1);
+	background-color: rgb(0, 0, 0, 0.5);
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.hotels-text button a {
+	color: #fff;
+}
+
+.hotels-text button:hover {
+	background-color: #555;
+	color: white;
+}
+
+.hotels-container {
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+  
+	width: 100%;
+	min-height: 200px;
+}
+
+.hotels-information-container {
+	width: 80%;
+	padding: 3% 10%;
+	text-align: center;
+}
+
+.hotels-gallery-container {
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+  
+	width: 80%;
+	padding: 3% 5%;
+	margin-left: 5%;
+	position: relative;
+	text-align: center;
+	min-height: 200px;
+	overflow: hidden;
+}
+
+.hotel-booking {
+	width: 90%;
+	padding: 3% 5%;
+	text-align: center;
+	position: relative;
+}
+
+.service {
+	width: 90%;
+	padding: 3% 5%;
+}
+
+.service-conteiner {
+	width: 100%;
+	border: 1px solid #000;
+}
+
+
+.service-card {
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	perspective: 1000px;
+	display: inline-block;
+}
+
+.service-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.service-card:hover .service-card-inner {
+	transform: rotateY(180deg);
+}
+
+.service-card-front, .service-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.service-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.service-card-name {
+	position: absolute;
+	width: 100%;
+	background: rgb(0, 0, 0, 0.7);
+	color: rgb(255, 255, 255, 1.0);
+	bottom: 0;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.service-card-back {
+	background-color: #2980b9;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.tablink {
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 25%;
+}
+
+.tablink:hover {
+	background-color: #777;
+}
+.tabcontent {
+	padding: 3% 0;
+	color: #000;
+	display: none;
+	height: 100%;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0;
+	position: relative;
+	background: #686868;
+	text-align: center;
+	padding: 3px 0;
+	color: #fff;
+	
+}
+
+.footer-menu {
+	width: 100%;
+	bottom: 0;
+	position: relative;
+	background: #908F8F;
+	padding: 3px 0;
+	color: #fff;
+}
+
+.footer-menu table {
+	width: 100%;
+}
+
+.footer-menu table td {
+	padding: 5px 100px;
+	text-align: left;
+}
+
+.footer-menu td a {
+	color: #fff;
+} 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+	
+	h1 {
+		font-size: 22px;
+	}
+	
+	.fast-contact {
+		display: none;
+	}
+	
+	.topnav{height: auto;}
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+  
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	
+	.header-image {
+		width: 100%;
+		height: 150px;
+	}
+	
+	.hotel-bulgaria-wallpaper {
+		display: none;
+	}
+		
+	.hotels {
+		width: 98%;
+		padding: 1% 1%;
+	}
+
+	.hotels-bulgaria {
+		width: 100%;
+	}
+
+	.hotels-molerite {
+		width: 100%;
+	}
+
+	.hotels-text {
+		width: 100%;
+	}
+	
+	.service {
+		width: 98%;
+		padding: 3% 1%;
+	}
+
+	.service-conteiner {
+		width: 100%;
+		border: none;
+	}
+	
+	.service-card {
+		background-color: transparent;
+		width: 100%;
+		height: 300px;
+		padding: 5px 0;
+		perspective: 1000px;
+		display: block;
+	}
+	
+	.fa {
+	  padding: 10px;
+	}
+	
+	.footer-menu {
+		width: 100%;
+		bottom: 0;
+		position: relative;
+		background: #908F8F;
+		padding: 3px 0;
+		color: #fff;
+	}
+	
+	.footer-menu table td {
+		padding: 5px 10px;
+		text-align: left;
+		overflow: hidden;
+	}
+}
