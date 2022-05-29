@@ -1,0 +1,56 @@
+@media all and (max-width: 980px) {
+
+body {
+	padding: 0% 0% 0 0%;
+}
+
+li a {
+	font-size: 35px;
+	padding: 20px;
+}
+
+li ul {
+    position: absolute;
+	left:0px;
+    display: none;
+	overflow: none;
+	max-height: auto;
+	min-height: 700px;
+}
+
+li ul li a {
+	width: 980px;
+	overflow: none;
+	font-size: 32px;
+	border-bottom: 2px solid #000;
+}
+
+.leftside {
+	border-radius: 0px 0px 200px 200px;
+	overflow: hidden;
+	padding: 15px 0 0px 0;
+	min-height: auto;
+	width: 100%;
+	font-size: 25px;
+	margin-bottom: 5%;
+}
+
+.rightside {
+	padding: 15px 0 0 0;
+	border-radius: 0px 0px 0px 0px;
+	width: 100%;
+	min-height: auto;
+	font-size: 35px;
+}
+
+.centerside {
+	width: 100%;
+	min-height: auto;
+}
+
+.newsbtn {
+	font-size: 32px;
+	max-width: none;
+	width: 100%;
+}
+}
