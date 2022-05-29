@@ -1,0 +1,187 @@
+html, body {
+	font-family: HindSiliguri-Light;
+	padding: 0;
+	margin: 0;
+	right: 0;
+	left: 0;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: HindSiliguri-Light;
+  src: url(HindSiliguri-Light.ttf);
+}
+
+.web-page {
+	overflow: hidden;
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+.header img {
+	background-repeat: no-repeat;
+	background-size: auto;
+	pointer-events: none;
+	width: 100%;
+}
+
+ul {
+	position: absolute;
+	list-style-type: none;
+	box-shadow: inset 0 50px 20px 0 rgba(0, 0, 0, 0.6), 0 0 0 0 rgba(0, 0, 0, 0.19);
+	height: 15%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	border-bottom: 1px solid rgb(0,0,0,0.0);
+	transition: border 0.5s;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 20px;
+	padding: 8px 12px;
+	display: block;
+	font-size: 20px;
+	color: rgb(255,255,255,1.0);
+}
+
+li a:hover:not(.li-active) {
+	border-bottom: 1px solid rgb(255,255,255,1.0)
+}
+
+.li-active {
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.slide-show {
+	width: 100%;
+	max-height: 700px;
+}
+
+.slide-show iframe {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+.slide-left-txt {
+	position: absolute;
+	top: 35%;
+	margin-left: 10%;
+	width:90%;
+	overflow: hidden;
+}
+
+.slide-left-txt p {
+	animation: slide-left 1s;
+	font-size: 32px;
+	color: #000;
+	text-shadow: #c3c3c3 1px 1px 0;
+}
+
+@keyframes slide-left {
+	from {
+		margin-left: 90%;
+		width: 100%; 
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+.portfolio {
+	width: 100%;
+	text-align: center;
+	min-height: 700px;
+	position: relative;
+}
+
+.service {
+	width: 100%;
+	padding: 5% 0;
+	text-align: center;
+	position: relative;
+	min-height: 700px;
+}
+
+.container {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about {
+	width: 100%;
+	text-align: center;
+	position: relative;
+	min-height: 700px;
+}
+
+.about-conteiner {
+	width: 70%;
+	margin-left: 15%;
+	min-height: 700px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-banner {
+	background-image: url(../img/2.jpg);
+	height: 250px;
+}
+
+.about-text {
+	color: #000;
+	text-align: left;
+	padding: 5% 5%;
+}
